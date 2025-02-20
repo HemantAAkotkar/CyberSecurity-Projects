@@ -17,10 +17,10 @@ def caesar_cipher(text, shift, mode='encrypt'):
     
     return result
 
-# Main program
+# Main Content 
 def main():
     print("Caesar Cipher Encryption/Decryption Program\n")
-    
+
     # Get user input
     message = input("Enter the message: ")
     print("")
@@ -37,6 +37,5 @@ def main():
     if(confirm == "yes"):
         print(f"\nDecrypted Message: {decrypted_message}")
     
-
 if __name__ == "__main__":
     main()
